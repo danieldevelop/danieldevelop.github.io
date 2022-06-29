@@ -1,0 +1,24 @@
+.menu {
+    text-align: center;
+}
+
+.menu__lista {
+    padding-left: 0;
+}
+
+.menu__lista--item {
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-right: .7rem;
+    margin-bottom: .7rem;
+    margin-left: .7rem;
+}
+
+.menu__lista--enlace:hover {
+    color: var(--color-texto-azul-marino);
+    font-weight: bold;
+}
+
+.menu__lista--enlace-contacto {
+    font-weight: bold;
+}
