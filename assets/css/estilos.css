@@ -1,11 +1,3 @@
-@import url("./_cabecera.css");
-@import url("./_menu.css");
-@import url("./_hero.css"); /* Mi presentacion */
-@import url("./_sobre-mi.css");
-@import url("./_habilidades.css");
-@import url("./_hobbies.css");
-
-
 :root {
     --background-cielo-suave: #EAF2FD;
     --background-fondo: #F5F5F5;
