@@ -1,0 +1,41 @@
+@import url("./_cabecera.css");
+@import url("./_menu.css");
+@import url("./_hero.css"); /* Mi presentacion */
+@import url("./_sobre-mi.css");
+@import url("./_habilidades.css");
+@import url("./_hobbies.css");
+
+
+:root {
+    --background-cielo-suave: #EAF2FD;
+    --background-fondo: #F5F5F5;
+    --border-azul-marino: #2A7AE4;
+    --color-texto-ceniza: #464646;
+    --color-texto-azul-marino: #2A7AE4;
+    --color-blanco: #fdfdfd;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--background-fondo);
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.contenedor {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a, a:hover {
+    color: var(--color-texto-ceniza);
+    cursor: default;
+    text-decoration: none;
+}
+
