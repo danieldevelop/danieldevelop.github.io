@@ -1,0 +1,47 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.hero__titulo {
+    color: var(--color-texto-ceniza); 
+    font-size: 1.5rem;
+    text-align: center;
+    /* text-transform: uppercase; */
+    line-height: 1.5;
+    letter-spacing: .1rem;
+}
+
+.hero__descripcion {
+    font-size: 1.25rem;
+    margin: 0 auto 1rem;
+    text-align: justify;
+    color: var(--color-texto-ceniza);
+    line-height: 1.2;
+}
+
+.hero__redes-sociales {
+    text-align: center;
+
+}
+
+.hero__red-social--enlace {
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.hero__red-social--enlace:hover {
+    color: var(--color-texto-azul-marino);
+    font-weight: bold;
+}
+
+.fa-github, .fa-linkedin, .fa-file-pdf-o {
+    margin-right: .1rem;
+}
+
+.hero__red-social--enlace:last-child {
+    margin-right: 0;
+}
