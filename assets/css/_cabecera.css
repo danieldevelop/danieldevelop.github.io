@@ -1,0 +1,15 @@
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    border-bottom: 1px solid var(--border-azul-marino);
+
+    position: absolute;
+}
+
+.cabecera__logo {
+    margin-bottom: 1rem;
+    width: 18rem;
+}
