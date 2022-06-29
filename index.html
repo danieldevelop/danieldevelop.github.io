@@ -12,14 +12,14 @@
         <!-- Google Font's -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Relaway:wght@500&display=swap.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap">
         <!-- Font-awesome icons -->
         <link rel="stylesheet" href="./lib/font-awesome/css/font-awesome.min.css">
     </head>
     <body>
     
         <header class="cabecera contenedor">
-            <img src="./assets/img/logo.svg" alt="..." class="cabecera__imagen">
+            <img src="./assets/img/logo.svg" alt="..." class="cabecera__logo">
 
             <nav class="menu">
                 <ul class="menu__lista">
@@ -28,16 +28,18 @@
                     <li class="menu__lista--item"><a href="#" class="menu__lista--enlace">Hobbies</a></li>
                     <li class="menu__lista--item"><a href="#" class="menu__lista--enlace">Formación</a></li>
                     <li class="menu__lista--item"><a href="#" class="menu__lista--enlace">Proyectos</a></li>
-                    <li class="menu__lista--item"><a href="#" class="menu__lista--enlace menu__lista--enlace-contacto">dgomez.informatica@gmail.com</a></li>
+                    <li class="menu__lista--item"><a href="mailto:dgomez.informatica@gmail.com" class="menu__lista--enlace menu__lista--enlace-contacto">dgomez.informatica@gmail.com</a></li>
                 </ul>
             </nav>
+        </header>
 
-            <section class="hero">
+
+        <main>
+            <!-- Mi Presentacion -->
+            <section class="hero contenedor">
                 <div class="hero__contenido">
-                    <h1 class="hero__titulo">Hola, mi nombre es Daniel Gómez soy Desarrollador Backend Junior
-                        y contruyo páginas web
-                    </h1>
-
+                    <h1 class="hero__titulo">Hola, mi nombre es Daniel y contruyo páginas web</h1>
+    
                     <p class="hero__descripcion">Soy Tecnico Analista Programador Computacional, me gusta mucho
                         la programación especificamente por el lado Backend y actualmente estoy participando en
                         el proyecto Oracle ONE en Alura Latam. 
@@ -49,19 +51,13 @@
                         <a href="#" class="hero__red-social--enlace"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin 
                             <img src="./assets/img/arrow.png" alt="..." class="hero__red-social--linkedin">
                         </a>
-                        <a href="#" class="hero__red-social--enlace"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram 
-                            <img src="./assets/img/arrow.png" alt="..." class="hero__red-social--instagram">
-                        </a>
                         <a href="#" class="hero__red-social--enlace"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Curriculum 
                             <img src="./assets/img/arrow.png" alt="..." class="hero__red-social--curriculum">
                         </a>
                     </nav>
                 </div>
             </section>
-        </header>
 
-
-        <main>
             <section class="sobre-mi contenedor">
                 <article class="sobre-mi__contenido">
                     <h2 class="sobre-mi__titulo">Sobre mí</h2>
@@ -72,7 +68,7 @@
                         constante, curiosa y sin miedos enfrentarme a nuevos retos. Actualmente soy Programador Backend Junior
                         egresado en el año 2018 como Analista Programador Computaciónal pero no conforme con eso fui mas alla,
                         de Tecnico a formarme como Ingeniero en Informatica en Desarrollo de Sistemas.
-                        
+                        <br><br>
                         Actualmente participo en el proyecto de Oracle ONE en Alura Latam y puedo decir que es una de las 
                         mejores decisiones que he tomado, para seguir creciendo en mis habilidades tecnico como en conocimiento.
                     </p>
@@ -109,13 +105,13 @@
 
                 <ul class="hobbies__lista">
                     <li class="hobbie__lista--item"><img src="./assets/img/guitar_icon.png" alt="..." class="hobbie__lista--guitarra">
-                        <p class="hobbie__lista--titulo">HTML 5</p> 
+                        <p class="hobbie__lista--titulo">Tocar Guitarra</p> 
                     </li>
                     <li class="hobbie__lista--item"> <img src="./assets/img/headphones_icon.png" alt="..." class="hobbie__lista--musica">
-                        <p class="hobbie__lista--titulo">Javascript</p> 
+                        <p class="hobbie__lista--titulo">Oír música</p> 
                     </li>
                     <li class="hobbie__lista--item"><img src="./assets/img/tv_icon.png" alt="..." class="hobbie__lista--series">
-                        <p class="hobbie__lista--titulo">PHP</p> 
+                        <p class="hobbie__lista--titulo">Ver series</p> 
                     </li>
                 </ul>
             </section>
