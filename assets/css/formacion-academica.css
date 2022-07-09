@@ -13,7 +13,7 @@
 }
 
 
-.formacion__academia--box {
+.formacion__academia {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -48,12 +48,34 @@
     width: 80px;
     height: 80px;
 }
-.formacion__academia--alura {
+
+.formacion__academia--alura,
+.formacion__academia--netacad {
     width: 100px;
     height: 60px;
 }
 
-.formacion__academia--netacad {
-    width: 100px;
-    height: 50px;
+
+/* Para Tablet */
+@media screen and (min-width: 768px) 
+{
+    .formacion__academia {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .formacion__academia--lista {
+        width: 300px;
+        margin: 0 1rem 2rem 1rem;
+    }
+
+    .formacion__academia--aiep,
+    .formacion__academia--ipchile {
+        width: 60px;
+        height: 60px;
+    }
 }
+
+/* Para Escritorio (Desktop) */
