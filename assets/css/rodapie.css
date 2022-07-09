@@ -1,0 +1,12 @@
+.rodapie {
+    padding: 16px;
+    background-color: var(--color-blanco);
+}
+
+.rodapie__copyright {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-texto-ceniza);
+    line-height: 1.3;
+}
