@@ -1,0 +1,59 @@
+.formaciones {
+    background-color: var(--background-cielo-suave);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.formaciones__titulo {
+    text-transform: uppercase;
+    color: var(--color-texto-ceniza);
+    font-weight: bold;
+    letter-spacing: .1rem;
+    text-align: center;
+}
+
+
+.formacion__academia--box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formacion__academia--lista {
+    padding-left: 0;
+}
+
+.formacion__academia--imagen {
+    background: var(--color-blanco);
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.formacion__academia--titulo h4 {
+    color: var(--color-texto-ceniza);
+    font-size: 20px;
+    margin-top: .9rem;
+    margin-bottom: .5rem;
+    letter-spacing: .1rem;
+}
+
+.formacion__academia--subtitulo p {
+    color: var(--color-texto-ceniza);
+    font-size: 17px;
+}
+
+.formacion__academia--aiep,
+.formacion__academia--ipchile {
+    width: 80px;
+    height: 80px;
+}
+.formacion__academia--alura {
+    width: 100px;
+    height: 60px;
+}
+
+.formacion__academia--netacad {
+    width: 100px;
+    height: 50px;
+}
