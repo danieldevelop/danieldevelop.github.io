@@ -1,0 +1,51 @@
+.experencias {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.experencias__titulo {
+    text-transform: uppercase;
+    color: var(--color-texto-ceniza);
+    font-weight: bold;
+    letter-spacing: .1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.experencias__box {
+    margin-left: 0;
+    width: 100%;
+}
+
+.experencias__box:nth-last-child(1) {
+    margin-top: 3rem;
+}
+
+.experencia__titulo {
+    color: var(--color-texto-ceniza);
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.experencia__texto {
+    font-size: 15px;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.experencia__imagen {
+    width: 100%
+}
+
+.experencia__repositorio {
+    border: 1px solid var(--border-azul-marino);
+    color: var(--color-texto-azul-marino);
+    padding: 10px 16px;
+    margin-right: 1rem;
+}
+
+.experencia__demo {
+    background: #2A7AE4;
+    color: var(--color-blanco);
+    padding: 12px 16px;
+}
