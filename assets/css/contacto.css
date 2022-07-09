@@ -45,3 +45,14 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+
+/* Para tablet */
+@media screen and (min-width: 768px)
+{
+    .contacto__formulario--boton {
+        width: 200px;
+    }
+}
+
+/* Para escritorio (desktop) */
