@@ -7,9 +7,13 @@
     --color-blanco: #fdfdfd;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
-    background-color: var(--background-fondo);
+    background-color: var(--color-blanco);
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
