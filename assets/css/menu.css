@@ -22,3 +22,12 @@
 .menu__lista--enlace-contacto {
     font-weight: bold;
 }
+
+
+/* Para Escritorio (Desktop) */
+@media screen and (min-width: 1024px)
+{
+    .menu__lista--item {
+        font-size: 1rem;
+    }
+}
