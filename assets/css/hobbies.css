@@ -1,7 +1,7 @@
-/* .hobbies {
+/* Estilos para dispositivos mobiles */
+.hobbies {
     padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-} */
+}
 
 .hobbies__titulo {
     text-transform: uppercase;
@@ -22,12 +22,11 @@
 }
 
 .hobbie__lista--item {
-    background: var(--color-blanco);
+    background: var(--background-fondo);
     display: flex;
     flex-direction: column;
     margin: 0 1rem 2rem 1rem;
     border-radius: 5px;
-    border: 1px solid #a52a2a;
     width: 130px;
     height: 118px;
 }
@@ -68,5 +67,25 @@
 
 
 /* Para Escritorio (Desktop) */
+@media screen and (min-width: 1024px) 
+{
+    .hobbies {
+        /* margin-top: 3rem; */
+        margin-bottom: 3rem;
+    }
 
+    .hobbies__titulo {
+        margin-top: 2rem;
+    }
+
+    .hobbies__lista {
+        width: 90%;
+        margin: 0 auto;
+        justify-content: flex-start;
+    }
+    
+    .hobbie__lista--item {
+        width: 130px;
+    }
+}
 
