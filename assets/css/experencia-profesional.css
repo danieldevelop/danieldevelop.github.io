@@ -1,3 +1,4 @@
+/* Estilos para dispositivos moviles */
 .experencias {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -37,15 +38,55 @@
     width: 100%
 }
 
-.experencia__repositorio {
+ /* {
     border: 1px solid var(--border-azul-marino);
     color: var(--color-texto-azul-marino);
     padding: 10px 16px;
     margin-right: 1rem;
-}
+} */
 
+.experencia__repositorio,
 .experencia__demo {
     background: #2A7AE4;
     color: var(--color-blanco);
-    padding: 12px 16px;
+    padding: 12px 20px;
+    margin-right: 1rem;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+/* Estilos para Desktop (Escritorio) */
+@media screen and (min-width: 1024px)
+{
+    .experencias {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .experencias__box{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .experencias__box:nth-child(even) {
+        flex-direction: row;
+    }
+
+    .experencias__box:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    .experencia__imagen {
+        width: 500px;
+    }
+
+    .experencia__repositorio:hover,
+    .experencia__demo:hover {
+        background: #2E3957;
+        color: var(--color-blanco);
+        transition: 0.3s ease-out;
+    }
 }
