@@ -1,7 +1,12 @@
+/* Estilos para el dispositivo mobil */
 .contacto {
     background-color: var(--background-cielo-suave);
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+}
+
+.contacto__imagen {
+    display: none;
 }
 
 .contacto__titulo {
@@ -9,6 +14,14 @@
     color: var(--color-texto-ceniza);
     font-weight: bold;
     letter-spacing: .1rem;
+}
+
+.contacto__subtexto {
+    margin-bottom: 0.3rem;
+}
+
+.contacto__texto {
+    margin-top: 0;
 }
 
 .contacto__formulario {
@@ -56,3 +69,32 @@
 }
 
 /* Para escritorio (desktop) */
+@media screen and (min-width: 1024px) 
+{
+    .contacto {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contacto__imagen {
+        display: block;
+    }
+
+    .contacto__formulario--nombre,
+    .contacto__formulario--correo,
+    .contacto__formulario--asunto {
+        padding: .5rem 0 .5rem 1rem;
+    }
+
+    .contacto__formulario--mensaje {
+        resize: none;
+        padding: .5rem 0 .5rem 1rem;
+    }   
+
+    .contacto__formulario--boton:hover {
+        background: #2E3957;
+        color: var(--color-blanco);
+        transition: 0.3s ease-out;
+    }
+}
