@@ -1,3 +1,4 @@
+/* Estilos para dispositivos mobiles */
 .formaciones {
     background-color: var(--background-cielo-suave);
     padding-top: 1.5rem;
@@ -79,3 +80,23 @@
 }
 
 /* Para Escritorio (Desktop) */
+@media screen and (min-width: 1024px) {
+    .formacion__academia {
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+
+    .formacion__academia--lista {
+        width: 240px;
+    }
+
+    .formacion__academia--titulo h4 {
+        font-size: 1rem;
+    }
+
+    .formacion__academia--subtitulo p {
+        font-size: 14px;
+    }
+}
