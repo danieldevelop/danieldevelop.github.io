@@ -29,15 +29,15 @@
     <body>
     
         <header class="cabecera contenedor">
-            <img src="./assets/img/logo.svg" alt="..." class="cabecera__logo">
+            <a href="./"><img src="./assets/img/logo.svg" alt="..." class="cabecera__logo"></a>
 
             <nav class="menu">
                 <ul class="menu__lista">
-                    <li class="menu__lista--item"><a href="#" class="menu__lista--enlace">Sobre mi</a></li>
-                    <li class="menu__lista--item"><a href="#" class="menu__lista--enlace">Habilidades</a></li>
-                    <li class="menu__lista--item"><a href="#" class="menu__lista--enlace">Hobbies</a></li>
-                    <li class="menu__lista--item"><a href="#" class="menu__lista--enlace">Formación</a></li>
-                    <li class="menu__lista--item"><a href="#" class="menu__lista--enlace">Proyectos</a></li>
+                    <li class="menu__lista--item"><a href="#sobre-mi" class="menu__lista--enlace">Sobre mi</a></li>
+                    <li class="menu__lista--item"><a href="#habilidades" class="menu__lista--enlace">Habilidades</a></li>
+                    <li class="menu__lista--item"><a href="#hobbies" class="menu__lista--enlace">Hobbies</a></li>
+                    <li class="menu__lista--item"><a href="#formacion-academica" class="menu__lista--enlace">Formación</a></li>
+                    <li class="menu__lista--item"><a href="#experencia-profesional" class="menu__lista--enlace">Proyectos</a></li>
                     <li class="menu__lista--item"><a href="mailto:dgomez.informatica@gmail.com" class="menu__lista--enlace menu__lista--enlace-contacto">dgomez.informatica@gmail.com</a></li>
                 </ul>
             </nav>
@@ -47,22 +47,25 @@
         <main>
             <!-- Mi Presentacion -->
             <section class="hero contenedor">
+                <img src="./assets/img/img_cabecera.svg" alt="..." class="hero__imagen">
+
                 <div class="hero__contenido">
-                    <h1 class="hero__titulo">Hola, mi nombre es Daniel y contruyo páginas web</h1>
+                    <h1 class="hero__titulo">Hola, mi nombre es Daniel</h1>
+                    <h3 class="hero__cargo">Desarrollar Backend Junior</h3>
     
                     <p class="hero__descripcion">Soy Tecnico Analista Programador Computacional, me gusta mucho
                         la programación especificamente por el lado Backend y actualmente estoy participando en
                         el proyecto Oracle ONE en Alura Latam. 
                     </p>
                     <nav class="hero__redes-sociales">
-                        <a href="#" class="hero__red-social--enlace"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-                        <a href="#" class="hero__red-social--enlace"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a>
-                        <a href="#" class="hero__red-social--enlace"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Curriculum</a>
+                        <a href="https://github.com/danieldevelop" target="_blank" class="hero__red-social--enlace"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+                        <a href="https://www.linkedin.com/in/daniel-antonio-gomez-gomez-328bb4105" target="_blank" class="hero__red-social--enlace"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a>
+                        <a href="./docs/CV-DanielGomezG.pdf" target="_blank" class="hero__red-social--enlace"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Curriculum</a>
                     </nav>
                 </div>
             </section>
 
-            <section class="sobre-mi contenedor">
+            <section class="sobre-mi contenedor" id="sobre-mi">
                 <article class="sobre-mi__contenido">
                     <h2 class="sobre-mi__titulo">Sobre mí</h2>
 
@@ -79,7 +82,7 @@
                 </article>
             </section>
 
-            <section class="habilidades contenedor">
+            <section class="habilidades contenedor" id="habilidades">
                 <h2 class="habilidades__titulo">Habilidades</h2>
 
                 <ul class="habilidades__tecnicas">
@@ -104,7 +107,7 @@
                 </ul>
             </section>
 
-            <section class="hobbies contenedor">
+            <section class="hobbies contenedor" id="hobbies">
                 <h2 class="hobbies__titulo">Hobbies</h2>
 
                 <ul class="hobbies__lista">
@@ -120,7 +123,7 @@
                 </ul>
             </section>
 
-            <section class="formaciones contenedor">
+            <section class="formaciones contenedor" id="formacion-academica">
                 <h2 class="formaciones__titulo">Formación académica</h2>
 
                 <div class="formacion__academia">
@@ -158,51 +161,55 @@
                 </div>
             </section>
 
-            <section class="experencias contenedor">
+            <section class="experencias contenedor" id="experencia-profesional">
                 <h2 class="experencias__titulo">Experencia Profesional</h2>
 
                 <figure class="experencias__box">
                     <img src="./assets/img/secretcode_print.png" alt="..." class="experencia__imagen">
+                    
                     <figcaption class="experencia__info">
                         <h2 class="experencia__titulo">Encriptador de texto</h2>
                         <p class="experencia__texto">Challenge Oracle ONE</p>
+                        
+                        <a href="https://github.com/danieldevelop/danieldevelop.github.io/tree/main/encriptador_texto" class="experencia__repositorio experencia__repositorio--hover" target="_blank">Repositorio</a>
+                        <a href="https://danieldevelop.github.io/encriptador_texto/" class="experencia__demo" target="_blank">Ver demo</a>
                     </figcaption>
-
-                    <a href="#" class="experencia__repositorio" target="_blank">Repositorio</a>
-                    <a href="#" class="experencia__demo" target="_blank">Ver demo</a>
                 </figure>
 
                 <figure class="experencias__box">
                     <img src="./assets/img/forca2_print.png" alt="..." class="experencia__imagen">
-                    <figcaption class="experencia__info">
-                        <h2 class="experencia__titulo">Juego del Ahorcado con HTML, CSS y JavaScript</h2>
-                        <p class="experencia__texto">Challenge Oracle ONE</p>
-                    </figcaption>
                     
-                    <a href="#" class="experencia__repositorio" target="_blank">Repositorio</a>
-                    <a href="#" class="experencia__demo" target="_blank">Ver demo</a>
+                    <figcaption class="experencia__info">
+                        <h2 class="experencia__titulo">Juego del Ahorcado</h2>
+                        <p class="experencia__texto">Challenge Oracle ONE</p>
+
+                        <a href="https://github.com/danieldevelop/danieldevelop.github.io/tree/main/juego_ahorcado" class="experencia__repositorio experencia__repositorio--hover" target="_blank">Repositorio</a>
+                        <a href="https://danieldevelop.github.io/juego_ahorcado/" class="experencia__demo" target="_blank">Ver demo</a>
+                    </figcaption>
                 </figure>
             </section>
 
             <section class="contacto contenedor">
                 <div class="contacto__box">
-                    <div class="contacto_imagen"></div>
+                    <img src="./assets/img/contactame_img.svg" class="contacto__imagen" alt="...">
                 </div>
 
-                <h2 class="contacto__titulo">Contacto</h2>
-                <p class="contacto__subtexto">¿Quieres contactarme?</p>
-                <p class="contacto__texto">Complete el siguiente formulario y me pondré en contacto con usted 
-                    lo antes posible.
-                </p>
-                
-                <form class="contacto__formulario">
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="contacto__formulario--input contacto__formulario--nombre">
-                    <input type="email" name="correo" id="correo" placeholder="Correo" class="contacto__formulario--input contacto__formulario--correo">
-                    <input type="text" name="asunto" id="asunto" placeholder="Asunto" class="contacto__formulario--input contacto__formulario--asunto">
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" class="contacto__formulario--input contacto__formulario--mensaje"></textarea>
-                
-                    <button type="button" class="contacto__formulario--boton">Enviar mensaje</button>
-                </form>
+                <div>
+                    <h2 class="contacto__titulo">Contacto</h2>
+                    <p class="contacto__subtexto">¿Quieres contactarme?</p>
+                    <p class="contacto__texto">Complete el siguiente formulario y me pondré en contacto con usted 
+                        lo antes posible.
+                    </p>
+                    
+                    <form class="contacto__formulario">
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="contacto__formulario--input contacto__formulario--nombre">
+                        <input type="email" name="correo" id="correo" placeholder="Correo" class="contacto__formulario--input contacto__formulario--correo">
+                        <input type="text" name="asunto" id="asunto" placeholder="Asunto" class="contacto__formulario--input contacto__formulario--asunto">
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" class="contacto__formulario--input contacto__formulario--mensaje"></textarea>
+                    
+                        <button type="button" class="contacto__formulario--boton">Enviar mensaje</button>
+                    </form>
+                </div>
             </section>
         </main>
 
