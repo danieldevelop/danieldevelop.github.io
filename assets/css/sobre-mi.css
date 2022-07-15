@@ -18,3 +18,21 @@
     color: var(--color-texto-ceniza);
 }
 
+
+/* Para Escritorio (Desktop) */
+@media screen and (min-width: 1024px)
+{
+    .sobre-mi {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .sobre-mi__contenido {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .sobre-mi__texto {
+        line-height: 1.5;
+    }
+}
