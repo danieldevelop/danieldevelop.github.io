@@ -4,12 +4,29 @@
     align-items: center;
     padding-top: .75rem;
     padding-bottom: .75rem;
-    border-bottom: 1px solid var(--border-azul-marino);
-
-    position: absolute;
 }
 
 .cabecera__logo {
     margin-bottom: 1rem;
     width: 18rem;
+}
+
+
+/* Para Escritorio (Desktop) */
+@media screen and (min-width: 1024px)
+{
+    .cabecera {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1940px; /* ESTE ES DE PRUEBA, PUEDE VARIAR SEGUN LA PANTALLA*/
+        padding-bottom: 0;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+        -webkit-box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    }
+
+    .cabecera__logo {
+        width: 14rem;
+    }
 }
