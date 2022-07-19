@@ -27,7 +27,29 @@
         </header>
 
         <main>
+            <div class="contenedor">
+                <section class="form">
+                    <div class="form__box">
+                        <textarea id="texto" cols="30" rows="10" class="form-control form__box--input" placeholder="Ingrese el texto aquí"></textarea>
+                        <p class="form__box--info text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i>Solo letras minúsculas y sin acentos</p>
+                    </div>
 
+                    <div class="form__box">
+                        <button type="button" id="btnEncriptar" class="btn text-uppercase form__box--boton form__box--encriptar">Encriptar</button>
+                        <button type="button" id="btnDesencriptar" class="btn text-uppercase form__box--boton form__box--desencriptar">Desencriptar</button>
+                    </div>
+                </section>
+
+                <aside class="panel">
+                    <div class="panel__box">
+                        <img src="./assets/img/munheco.svg" alt="..." class="img-fluid panel__box--imagen">
+                        <h2 class="panel__box--titulo h3 text-center">Ningún mensaje fue encontrado</h2>
+                        <textarea id="texto" cols="30" rows="8" class="form-control panel__box--input"></textarea>
+
+                        <button type="button" class="panel__box--copiar btn text-uppercase" id="copy">Copiar</button>
+                    </div>
+                </aside>
+            </div>
         </main>
 
         <!-- JavaScript Only and Local -->
