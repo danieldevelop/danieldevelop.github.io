@@ -7,6 +7,27 @@
     padding-right: 8%;
 }
 
+@media screen and (min-width: 768px) 
+{
+    .contenedor {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .contenedor {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+
+
+
+
+
 
 
 
@@ -38,4 +59,20 @@
 
 .cabecera__box--link .fa-github {
     margin-right: 4px;
+}
+
+@media screen and (min-width: 768px) 
+{
+    .cabecera {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .cabecera {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
 }
