@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+        <title>Encriptador de Texto</title>
+
+        <!-- CSS Local -->
+        <link rel="stylesheet" href="./lib/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/estilos.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="./lib/font-awesome/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header class="cabecera contenedor">
+            <section class="cabecera__box d-flex align-items-center justify-content-between">
+                <img src="./assets/img/logo.svg" alt="..." class="img-fluid cabecera__box--logo">
+
+                <a href="https://github.com/danieldevelop/danieldevelop.github.io/tree/main/encriptador_texto" class="cabecera__box--link btn" 
+                    title="Repositorio" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
+                    GitHub
+                </a>
+            </section>
+        </header>
+
+        <main>
+            <div class="contenedor">
+                <section class="contenido__box">
+                    <form class="form">
+                        <div class="form__box">
+                            <textarea id="texto" cols="30" rows="10" class="form-control form__box--input" placeholder="Ingrese el texto aquí"></textarea>
+                            <p class="form__box--info text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i>Solo letras minúsculas y sin acentos</p>
+                        </div>
+                    
+                        <div class="form__box form__group--button">
+                            <button type="button" id="btnEncriptar" class="btn form__box--boton form__box--encriptar">Encriptar</button>
+                            <button type="button" id="btnDesencriptar" class="btn form__box--boton form__box--desencriptar">Desencriptar</button>
+                        </div>
+                    </form>
+                    
+                    <aside class="panel">
+                        <div class="panel__box">
+                            <img src="./assets/img/munheco.svg" alt="..." class="img-fluid panel__box--imagen">
+                            <h2 class="panel__box--titulo h3 text-center">Ningún mensaje fue encontrado</h2>
+                            <textarea id="texto" cols="30" rows="8" class="form-control panel__box--input"></textarea>
+                    
+                            <button type="button" class="panel__box--copiar btn text-uppercase" id="copy">Copiar</button>
+                        </div>
+                    </aside>
+                </section>
+            </div>
+        </main>
+
+
+        <footer class="pt-3 text-center">
+            <div class="contenedor">
+                <p class="text-white">Copyrigth &copy; 2022 - Daniel Gómez G</p>
+            </div>
+        </footer>
+
+        <!-- JavaScript Only and Local -->
+    </body>
+</html>

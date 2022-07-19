@@ -1,0 +1,282 @@
+/* =========================
+    Estilos Generales
+========================= */
+/* Mobile 375px */
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background: #F3F5FC;
+}
+
+.contenedor {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+textarea {
+    resize: none;
+}
+
+.visible {
+    display: block;
+}
+
+.no-visible {
+    display: none;
+}
+
+@media screen and (min-width: 768px) 
+{
+    .contenedor {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .contenedor {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+    Estilos Cabecera
+========================= */
+/* Mobile 375px */
+.cabecera {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.cabecera__box--link {
+    color: #0A3871;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.cabecera__box--link:hover {
+    background: #0A3871;
+    color: #fff;
+    cursor: default;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+}
+
+.cabecera__box--link .fa-github {
+    margin-right: 4px;
+}
+
+@media screen and (min-width: 768px) 
+{
+    .cabecera {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .cabecera {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+    Estilos Body (main)
+========================= */
+/* Mobile 375px */
+.form__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__box--input {
+    margin-top: 1rem;
+}
+
+.form__box--input, 
+.form__box--input:focus {
+    color: #093366;
+    font-size: 20px;
+    border: none;
+}
+
+.form__box--info 
+.fa-info-circle {
+    margin-right: 4px;
+}
+
+.form__box--info {
+    margin-top: .8rem;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form__box--boton {
+    margin-top: 1rem;
+    padding: 12px;
+    letter-spacing: 1px;
+    transition: .3s all ease;
+    border-radius: 12px;
+}
+
+.form__box--encriptar {
+    background: #093366;
+    color: #fff;
+}
+
+.form__box--desencriptar {
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+
+.form__box--encriptar:hover, 
+.form__box--desencriptar:hover {
+    background: #142D4C;
+    color: #fff;
+    cursor: default;
+}
+
+@media screen and (min-width: 768px) 
+{
+    .form__group--button {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .form__box--boton {
+        width: 280px;
+        margin-right: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .form__box--input,
+    .form__box--input:focus {
+        margin-top: 0;
+        background: transparent;
+    }
+}
+
+
+
+.panel {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    padding: 1.5rem;
+    border-radius: 10px;    
+    background: #fff;
+}
+
+.panel__box--imagen {
+    display: none;
+}
+
+.panel__box--titulo {
+    margin-bottom: 1rem;
+}
+
+.panel__box--input {
+    border: none;
+    display: none;
+}
+
+.panel__box--copiar {
+    border: 1px solid #0A3871;
+    border-radius: 12px;
+    padding: 12px;
+    width: 100%;
+    max-width: 1024px;
+    letter-spacing: 1px;
+    display: none;
+}
+
+.panel__box--copiar:hover {
+    background: #142D4C;
+    color: #fff;
+    cursor: default;
+}
+
+@media screen and (min-width: 768px) 
+{
+    .panel__box--imagen {
+        display: block;
+        margin: 2rem auto;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .panel {
+        margin: 0;
+        width: 300px;
+    }
+
+    .panel__box--imagen {
+        width: 100%;
+    }
+}
+
+
+/* Cubre formulario and panel */
+@media screen and (min-width: 1024px)
+{
+    .contenido__box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* =========================
+    Estilos Rodapie (footer)
+========================= */
+/* Mobile 375px */
+footer {
+    background: #25201C;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 1968px;
+}
