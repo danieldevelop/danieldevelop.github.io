@@ -2,9 +2,25 @@
     Estilos Generales
 ========================= */
 /* Mobile 375px */
+body {
+    background: #F3F5FC;
+}
+
 .contenedor {
     padding-left: 8%;
     padding-right: 8%;
+}
+
+textarea {
+    resize: none;
+}
+
+.visible {
+    display: block;
+}
+
+.no-visible {
+    display: none;
 }
 
 @media screen and (min-width: 768px) 
@@ -75,4 +91,112 @@
         padding-top: 2%;
         padding-bottom: 2%;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+    Estilos Body (main)
+========================= */
+/* Mobile 375px */
+.form__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__box--input {
+    margin-top: 1rem;
+}
+
+.form__box--input, 
+.form__box--input:focus {
+    color: #093366;
+    font-size: 20px;
+    border: none;
+}
+
+.form__box--info 
+.fa-info-circle {
+    margin-right: 4px;
+}
+
+.form__box--info {
+    margin-top: .8rem;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form__box--boton {
+    padding: 12px;
+    letter-spacing: 1px;
+    transition: .3s all ease;
+    border-radius: 12px;
+}
+
+.form__box--encriptar {
+    margin: 1rem 0;
+    background: #093366;
+    color: #fff;
+}
+
+.form__box--desencriptar {
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+
+.form__box--encriptar:hover, 
+.form__box--desencriptar:hover {
+    background: #142D4C;
+    color: #fff;
+    cursor: default;
+}
+
+
+
+.panel {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    padding: 1.5rem;
+    border-radius: 32px;    
+    background: #fff;
+}
+
+.panel__box--imagen {
+    display: none;
+}
+
+.panel__box--titulo {
+    margin-bottom: 1rem;
+}
+
+.panel__box--input {
+    border: none;
+    display: none;
+}
+
+.panel__box--copiar {
+    border: 1px solid #0A3871;
+    border-radius: 12px;
+    padding: 12px;
+    width: 100%;
+    max-width: 1024px;
+    letter-spacing: 1px;
+    display: none;
+}
+
+.panel__box--copiar:hover {
+    background: #142D4C;
+    color: #fff;
+    cursor: default;
 }
