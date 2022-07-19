@@ -1,0 +1,41 @@
+/* =========================
+    Estilos Generales
+========================= */
+/* Mobile 375px */
+.contenedor {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+
+
+
+
+/* =========================
+    Estilos Cabecera
+========================= */
+/* Mobile 375px */
+.cabecera {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.cabecera__box--link {
+    color: #0A3871;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.cabecera__box--link:hover {
+    background: #0A3871;
+    color: #fff;
+    cursor: default;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+}
+
+.cabecera__box--link .fa-github {
+    margin-right: 4px;
+}
