@@ -43,9 +43,9 @@
                     
                     <aside class="panel">
                         <div class="panel__box">
-                            <img src="./assets/img/munheco.svg" alt="..." class="img-fluid panel__box--imagen">
-                            <h2 class="panel__box--titulo h3 text-center">Ningún mensaje fue encontrado</h2>
-                            <textarea id="texto" cols="30" rows="8" class="form-control panel__box--input"></textarea>
+                            <img src="./assets/img/munheco.svg" alt="..." class="img-fluid panel__box--imagen" id="munheco">
+                            <h2 class="panel__box--titulo h3 text-center" id="leyenda">Ningún mensaje fue encontrado</h2>
+                            <textarea id="texto_cifrado" cols="30" rows="8" class="form-control panel__box--input"></textarea>
                     
                             <button type="button" class="panel__box--copiar btn text-uppercase" id="copy">Copiar</button>
                         </div>
@@ -62,5 +62,7 @@
         </footer>
 
         <!-- JavaScript Only and Local -->
+        <script src="./assets/js/app.js" type="module"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </body>
 </html>
