@@ -21,11 +21,11 @@ textarea {
 }
 
 .visible {
-    display: block;
+    display: block !important;
 }
 
 .no-visible {
-    display: none;
+    display: none !important;
 }
 
 @media screen and (min-width: 768px) 
